@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:live_test_mod5/livetest06.dart';
 import 'package:live_test_mod5/profile.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ProfileScreen(),
+      home: Livetesto6(),
     );
   }
 }
