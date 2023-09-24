@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:live_test_mod5/livetest06.dart';
 import 'package:live_test_mod5/profile.dart';
 
+import 'CounterScreen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Livetesto6(),
+      home: CounterScreen(),
     );
   }
 }
